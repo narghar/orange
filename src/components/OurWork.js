@@ -1,7 +1,7 @@
 import Image from "next/image";
 const OurWork = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 max-w-base mx-auto mt-32  px-2 xl:px-0 items-center justify-items-center md:justify-items-start">
+    <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 max-w-base mx-auto mt-24  px-2 xl:px-0 items-center justify-items-center md:justify-items-start">
       <div>
         <p className="font-bold text-orange text-3xl">01</p>
         <h2 className="font-bold text-5xl mt-1">Do dzisiaj wyprodukowaliśmy</h2>
