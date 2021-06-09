@@ -10,16 +10,26 @@ module.exports = {
       fontFamily: {
         body: "futura-pt, sans-serif",
       },
+      fontSize: {
+        "15p": "15px",
+      },
       maxWidth: {
         base: "1390px",
       },
       colors: {
         orange: "#e75420",
+        "orange-light": "#f25822",
+        "gray-light": "#f7f7f7",
+        "gray-dark": "#6b6b6b",
+        "gray-darker": "#8c8c8c"
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["checked"],
+      borderColor: ["checked"],
+    },
   },
   plugins: [],
 };
