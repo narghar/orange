@@ -13,6 +13,12 @@ module.exports = {
       fontSize: {
         "15p": "15px",
       },
+      margin: {
+        13: "3.25rem"
+      },
+      screens: {
+        base: "1390px"
+      },
       maxWidth: {
         base: "1390px",
       },
