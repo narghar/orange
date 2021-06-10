@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" width="20" height="16">
+	<title>Contact</title>
+	<defs>
+		<image  width="20" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAAXNSR0IB2cksfwAAAC1QTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwaAoPgAAAA90Uk5TABFEVWaIM8z/7t13u6qZXzUOEwAAAGRJREFUeJxjYGBUdg0NDTESYGBgq+gAg/YEBsmlzoqCgkImURMZdigwMDIAAVM3Q4QAA/NiIJOxleEUAwNzxzEgew1DOZDZO+MhA5ABYjbLdW7AZEIVIGlDMgzJCiSLkZyDcCQA2+0obRUQZiMAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g >
+		<g >
+			<use  href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
