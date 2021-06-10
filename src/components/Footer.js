@@ -1,9 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
+import FacebookIconWhite from "../../public/assets/contact/f-w.svg";
+import PhoneWhiteIcon from '../../public/assets/contact/phone-w.svg';
+import YoutubeIconWhite from '../../public/assets/contact/y-w.svg';
 const Footer = () => {
   return (
-    <section className="bg-black mt-32">
-      <div className="relative max-w-base mx-auto text-white px-2 xl:px-0 flex flex-wrap">
-        <figure className="pt-36 mb-12 w-full">
+    <section className="bg-black mt-32 overflow-hidden">
+      <div className="relative max-w-base mx-auto text-white px-2 xl:px-0 flex flex-wrap justify-evenly lg:justify-start">
+        <figure className="pt-36 mb-12 w-full text-center lg:text-left">
           <Image
             src="/assets/contact/logo.png"
             alt=""
@@ -11,7 +15,7 @@ const Footer = () => {
             height={45}
           />
         </figure>
-        <div className="w-1/4">
+        <div className="w-[270px] sm:w-1/4">
           <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3">
             Dane fakturowe
           </h4>
@@ -43,110 +47,72 @@ const Footer = () => {
           <h4 className="uppercase text-orange-light text-15p tracking-[3px] mt-12">
             Social Media
           </h4>
-          <div className="mt-3">
-            <span>
-              <Image
-                src="/assets/contact/y.png"
-                alt=""
-                width={20}
-                height={16}
-              />
-            </span>
-            <span className="ml-8 align-middle">
-              <Image
-                src="/assets/contact/f.png"
-                alt=""
-                width={13}
-                height={22}
-              />
-            </span>
+          <div className="mt-3 mb-12 lg:mb-0">
+            <div className="mt-3 flex items-center">
+              <YoutubeIconWhite />
+              <FacebookIconWhite className="ml-8" />
+            </div>
           </div>
         </div>
-        <div className="w-1/4">
+        <div className="w-[270px] sm:w-1/4">
           <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3">
-            SKONTAKTUJ SIĘ
+            Skontaktuj się
           </h4>
-          <p className="leading-6 mb-12">
+          <div className="leading-6 mb-12">
             <span className="font-semibold">
               Maria Rakowska - Office Manager
             </span>
-            <br />
-            <span className="align-middle mr-2">
-              <Image
-                src="/assets/contact/phone.png"
-                alt=""
-                width={11}
-                height={15}
-              />
-            </span>
-            +48 607 339 459
-            <br />
+            <div className="flex items-center">
+              <PhoneWhiteIcon />
+              <span className="ml-2">+48 607 339 459</span>
+            </div>
             e-mail:
             <span className="text-orange-light"> ms.rakowska@gmail.com</span>
-          </p>
-          <p className="leading-6 mb-12">
+          </div>
+          <div className="leading-6 mb-12">
             <span className="font-semibold">Barbara Pewna - Co-Producer</span>
-            <br />
-            <span className="align-middle mr-2">
-              <Image
-                src="/assets/contact/phone.png"
-                alt=""
-                width={11}
-                height={15}
-              />
-            </span>
-            +48 693 557 829
-            <br />
+            <div className="flex items-center">
+              <PhoneWhiteIcon />
+              <span className="ml-2">+48 693 557 829</span>
+            </div>
             <span className="text-orange-light">basiapewna@gmail.com</span>
-          </p>
-          <p className="leading-6 mb-12">
+          </div>
+          <div className="leading-6 mb-12">
             <span className="font-semibold">Paweł Pewny - Producent</span>
-            <br />
-            <span className="align-middle mr-2">
-              <Image
-                src="/assets/contact/phone.png"
-                alt=""
-                width={11}
-                height={15}
-              />
-            </span>
-            +48 720 800 979
-            <br />
+            <div className="flex items-center">
+              <PhoneWhiteIcon />
+              <span className="ml-2">+48 720 800 979</span>
+            </div>
             <span className="text-orange-light">pawel@orangeanimation.pl</span>
-          </p>
-          <p className="leading-6">
+          </div>
+          <div className="leading-6">
             <span className="font-semibold">Piotr Reisch - Producent</span>
-            <br />
-            <span className="align-middle mr-2">
-              <Image
-                src="/assets/contact/phone.png"
-                alt=""
-                width={11}
-                height={15}
-              />
-            </span>
-            +48 603 193 820
-            <br />
+            <div className="flex items-center">
+              <PhoneWhiteIcon />
+              <span className="ml-2">+48 603 193 820</span>
+            </div>
             <span className="text-orange-light">piotr@spinkafilm.pl</span>
-          </p>
+          </div>
         </div>
-        <div className="w-1/2">
-          <h2 className="text-4xl  m-w-[609px]">
+        <div className="w-2/3 lg:w-1/2 text-center lg:text-left pl-0 lg:pl-12 mt-24 lg:mt-0">
+          <h2 className="text-4xl m-w-[609px]">
             Uwielbiamy wyzwania stawiane nam przez producentów i twórców.
+            <br />
+            Profesjonalnie i solidnie.
           </h2>
           <button
             className="text-orange border border-solid rounded-[20px]
-            border-orange px-14 py-2 mt-11"
+            border-orange px-14 py-2 mt-14"
           >
             Skontaktuj się
           </button>
         </div>
-        <div className="w-full text-gray-darker">
-          <p className="max-w-[971px]">
+        <div className="w-1/2 lg:w-4/5 xl:w-full text-gray-darker mt-24 leading-tight">
+          <p className="xl:max-w-[990px]">
             Filmy fabularne - Seriale telewizyjne - Seriale internetowe - Gry
             video - Reklamy - Konsultacje kreatywne
           </p>
-          <p className="max-w-[971px]">
+          <p className="xl:max-w-[990px] mt-5">
             Kompozycja i malowanie - Wstępny montaż kolorów - Storyboard -CGI -
             2D/3D concept art - Animacja 2D/3D - Modelowanie i rigging- Kolory
             BG - Layouty - Animacja i efekty w grach - Projektowaniepostaci i
@@ -154,7 +120,41 @@ const Footer = () => {
             Teksturowanie - Cieniowanie
           </p>
         </div>
-        <figure className="absolute bottom-0 right-0">
+        <nav className="w-full mt-24 mb-32">
+          <ul className="text-gray-darker text-base uppercase tracking-wide font-medium flex">
+            <li className="mr-13">
+              <Link href="/">
+                <a className="text-orange">Home</a>
+              </Link>
+            </li>
+            <li className="mr-13">
+              <Link href="/oferta">
+                <a>Oferta</a>
+              </Link>
+            </li>
+            <li className="mr-13">
+              <Link href="/produkcje">
+                <a>Produkcje</a>
+              </Link>
+            </li>
+            <li className="mr-13">
+              <Link href="/aktualne">
+                <a>Aktualne Projekty</a>
+              </Link>
+            </li>
+            <li className="mr-13">
+              <Link href="/kariera">
+                <a>Kariera</a>
+              </Link>
+            </li>
+            <li className="mr-13">
+              <Link href="/kontakt">
+                <a>Kontakt</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        <figure className="absolute -bottom-2 -right-20">
           <Image
             src="/assets/contact/bot-image.png"
             alt=""

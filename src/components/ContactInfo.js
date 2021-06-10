@@ -1,9 +1,11 @@
-import Image from "next/image";
+import FacebookIcon from '../../public/assets/contact/f.svg';
+import PhoneIcon from '../../public/assets/contact/phone.svg';
+import YoutubeIcon from '../../public/assets/contact/y.svg';
 
 const ContactInfo = () => {
   return (
-    <section className="max-w-base mx-auto px-2 xl:px-0 flex flex-wrap">
-      <div className="w-1/4">
+    <section className="max-w-base mx-auto px-2 xl:px-0 mt-20 justify-evenly lg:justify-start flex flex-wrap">
+      <div className="w-[270px] sm:w-1/4">
         <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3">
           Dane fakturowe
         </h4>
@@ -35,82 +37,62 @@ const ContactInfo = () => {
         <h4 className="uppercase text-orange-light text-15p tracking-[3px] mt-12">
           Social Media
         </h4>
-        <div className="mt-3">
-          <span>
-            <Image src="/assets/contact/y.png" alt="" width={20} height={16} />
-          </span>
-          <span className="ml-8 align-middle">
-            <Image src="/assets/contact/f.png" alt="" width={13} height={22} />
-          </span>
+        <div className="mt-3 flex items-center mb-12 lg:mb-0">
+          <YoutubeIcon />
+          <FacebookIcon className="ml-8" />
         </div>
       </div>
-      <div className="w-1/4">
+      <div className="w-[270px] sm:w-1/4">
         <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3">
-          SKONTAKTUJ SIĘ
+          Skontaktuj się
         </h4>
-        <p className="leading-6 mb-12">
+        <div className="leading-6 mb-12">
           <span className="font-semibold">Maria Rakowska - Office Manager</span>
           <br />
-          <span className="align-middle mr-2">
-            <Image
-              src="/assets/contact/phone.png"
-              alt=""
-              width={11}
-              height={15}
-            />
-          </span>
-          +48 607 339 459
+          <div className="flex items-center">
+            <PhoneIcon />
+            <span className="ml-2">+48 607 339 459</span>
+          </div>
           <br />
           e-mail:
           <span className="text-orange-light"> ms.rakowska@gmail.com</span>
-        </p>
-        <p className="leading-6 mb-12">
+        </div>
+        <div className="leading-6 mb-12">
           <span className="font-semibold">Barbara Pewna - Co-Producer</span>
           <br />
-          <span className="align-middle mr-2">
-            <Image
-              src="/assets/contact/phone.png"
-              alt=""
-              width={11}
-              height={15}
-            />
-          </span>
-          +48 693 557 829
+          <div className="flex items-center">
+            <PhoneIcon />
+            <span className="ml-2">+48 693 557 829</span>
+          </div>
           <br />
           <span className="text-orange-light">basiapewna@gmail.com</span>
-        </p>
-        <p className="leading-6 mb-12">
+        </div>
+        <div className="leading-6 mb-12">
           <span className="font-semibold">Paweł Pewny - Producent</span>
           <br />
-          <span className="align-middle mr-2">
-            <Image
-              src="/assets/contact/phone.png"
-              alt=""
-              width={11}
-              height={15}
-            />
-          </span>
-          +48 720 800 979
+          <div className="flex items-center">
+            <PhoneIcon />
+            <span className="ml-2">+48 720 800 979</span>
+          </div>
           <br />
           <span className="text-orange-light">pawel@orangeanimation.pl</span>
-        </p>
-        <p className="leading-6">
+        </div>
+        <div className="leading-6">
           <span className="font-semibold">Piotr Reisch - Producent</span>
           <br />
-          <span className="align-middle mr-2">
-            <Image
-              src="/assets/contact/phone.png"
-              alt=""
-              width={11}
-              height={15}
-            />
-          </span>
-          +48 603 193 820
+          <div className="flex items-center">
+            <PhoneIcon />
+            <span className="ml-2">+48 603 193 820</span>
+          </div>
           <br />
           <span className="text-orange-light">piotr@spinkafilm.pl</span>
-        </p>
+        </div>
       </div>
-      <form method="GET" action="/kontakt" className="w-1/2 mt-5">
+      <form
+        method="GET"
+        action="/kontakt"
+        className="w-4/5 sm:w-2/3 lg:w-1/2 mt-5"
+      >
         <fieldset className="text-gray-dark">
           <input
             type="text"
