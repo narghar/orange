@@ -107,7 +107,7 @@ const Footer = () => {
             Skontaktuj się
           </button>
         </div>
-        <div className="w-1/2 lg:w-4/5 xl:w-full text-gray-darker mt-24 leading-tight">
+        <div className="w-2/3 lg:w-4/5 xl:w-full text-gray-darker mt-24 leading-tight">
           <p className="xl:max-w-[990px]">
             Filmy fabularne - Seriale telewizyjne - Seriale internetowe - Gry
             video - Reklamy - Konsultacje kreatywne
@@ -120,41 +120,41 @@ const Footer = () => {
             Teksturowanie - Cieniowanie
           </p>
         </div>
-        <nav className="w-full mt-24 mb-32">
-          <ul className="text-gray-darker text-base uppercase tracking-wide font-medium flex">
-            <li className="mr-13">
+        <nav className="w-full mt-24 mb-24 lg:mb-32">
+          <ul className="text-gray-darker text-base uppercase tracking-wide font-medium flex flex-col sm:flex-row items-center sm:items-start  justify-around md:justify-center lg:justify-start">
+            <li className="md:mr-13">
               <Link href="/">
                 <a className="text-orange">Home</a>
               </Link>
             </li>
-            <li className="mr-13">
+            <li className="md:mr-13">
               <Link href="/oferta">
                 <a>Oferta</a>
               </Link>
             </li>
-            <li className="mr-13">
+            <li className="md:mr-13">
               <Link href="/produkcje">
                 <a>Produkcje</a>
               </Link>
             </li>
-            <li className="mr-13">
+            <li className="md:mr-13">
               <Link href="/aktualne">
                 <a>Aktualne Projekty</a>
               </Link>
             </li>
-            <li className="mr-13">
+            <li className="md:mr-13">
               <Link href="/kariera">
                 <a>Kariera</a>
               </Link>
             </li>
-            <li className="mr-13">
+            <li className="lg:mr-13">
               <Link href="/kontakt">
                 <a>Kontakt</a>
               </Link>
             </li>
           </ul>
         </nav>
-        <figure className="absolute -bottom-2 -right-20">
+        <figure className="-mb-2 lg:absolute lg:mb-0 lg:-bottom-2 lg:-right-20">
           <Image
             src="/assets/contact/bot-image.png"
             alt=""
