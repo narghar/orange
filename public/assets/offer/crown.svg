@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 19" width="22" height="19">
+	<title>Klienci</title>
+	<defs>
+		<image  width="22" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATBAMAAABmV+C7AAAAAXNSR0IB2cksfwAAADBQTFRFAAAA8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgiNhAQdgAAABB0Uk5TADO7Ee7dIoh3Vf+ZZsyqRHK+uUIAAACnSURBVHicY2AAAkYlAQYYMAl1BtNsFQwMs2auZGBoT2BIWbUBLM69yo2hKnsxA8+qAwxW25YzdO0NYOBb9YCB9fYKoNwGBql3C8E0w611Bq8E1zG/Wgs0aEuXxzqGVy0rvIHsrvxbCxmk1n5bAWTPmmBxgIGnmRNoBYNVAdhO9sVAgvUBmM0XACSYbs4EgbkKIMlVEABSyr4SLD4Lg42khm0mBCQwAADuhka6gRCA5QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Klienci">
+		<use id="-e-crown" href="#img1" x="0" y="0" />
+	</g>
+</svg>
