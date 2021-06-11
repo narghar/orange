@@ -1,10 +1,10 @@
-import FacebookIcon from '../../public/assets/contact/f.svg';
-import PhoneIcon from '../../public/assets/contact/phone.svg';
-import YoutubeIcon from '../../public/assets/contact/y.svg';
+import FacebookIcon from '../../../public/assets/contact/f.svg';
+import PhoneIcon from '../../../public/assets/contact/phone.svg';
+import YoutubeIcon from '../../../public/assets/contact/y.svg';
 
 const ContactInfo = () => {
   return (
-    <section className="max-w-base mx-auto px-2 xl:px-0 mt-20 justify-evenly lg:justify-start flex flex-wrap">
+    <section className="max-w-base mx-auto px-2 base:px-0 mt-20 justify-evenly lg:justify-start flex flex-wrap">
       <div className="w-[270px] sm:w-1/4">
         <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3">
           Dane fakturowe
@@ -147,7 +147,7 @@ const ContactInfo = () => {
         </div>
         <button
           type="submit"
-          className="text-orange border border-solid rounded-[20px]
+          className="text-orange border border-solid font-semibold rounded-[20px]
             border-orange px-14 py-2 mt-11"
         >
           Wyślij Wiadomość

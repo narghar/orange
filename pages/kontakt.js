@@ -1,4 +1,4 @@
-import ContactInfo from "../src/components/ContactInfo";
+import ContactInfo from "../src/components/Contact/ContactInfo";
 import Footer from "../src/components/Footer";
 import OurWork from "../src/components/OurWork";
 
