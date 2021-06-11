@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Clients from "../src/components/Clients";
 const Career = () => {
   return (
-    <div className="max-w-base mx-auto mt-32  px-2 xl:px-0">
+    <div className="max-w-base mx-auto mt-32  px-2 base:px-0">
       <section className="grid grid-cols-1 md:grid-cols-2">
         <div className="tracking-wide font-bold text-4xl">
           <h2 className="md:mr-8">
@@ -10,7 +11,7 @@ const Career = () => {
             produkcjami, napisz do nas!
           </h2>
           <p className="text-2xl sm:text-4xl text-orange mt-8">
-            cv@orangeanimation.com{" "}
+            cv@orangeanimation.com
           </p>
         </div>
         <p className="md:ml-8 self-center lg:place-self-start ">
@@ -20,49 +21,8 @@ const Career = () => {
           się i porozmawiać z każdym, ale czasami jest to dość trudne zadanie...
         </p>
       </section>
-      <section className="flex flex-col sm:flex-row gap-y-8  sm:justify-evenly xl:justify-between items-center flex-wrap my-36">
-        <figure className="sm:pr-10">
-          <Image
-            src="/assets/career/netflix.png"
-            alt="Netflix"
-            width={195}
-            height={43}
-          />
-        </figure>
-        <figure className="sm:pr-10">
-          <Image
-            src="/assets/career/pixar.png"
-            alt="Netflix"
-            width={245}
-            height={39}
-          />
-        </figure>
-        <figure className="sm:pr-10">
-          <Image
-            src="/assets/career/disney.png"
-            alt="Netflix"
-            width={180}
-            height={77}
-          />
-        </figure>
-        <figure className="sm:pr-10">
-          <Image
-            src="/assets/career/warner-bros.png"
-            alt="Netflix"
-            width={95}
-            height={89}
-          />
-        </figure>
-        <figure>
-          <Image
-            src="/assets/career/delma.png"
-            alt="Netflix"
-            width={166}
-            height={71}
-          />
-        </figure>
-      </section>
 
+      <Clients />
       <section>
         <article className="grid grid-cols-1 md:grid-cols-2">
           <div className="col-span-full">
@@ -109,7 +69,7 @@ const Career = () => {
               <span className="text-orange"> cv@orangeanimation.com</span>
             </p>
             <button
-              className="text-orange border border-solid rounded-[20px]
+              className="text-orange border border-solid font-semibold rounded-[20px]
             border-orange pl-12 pr-9 py-2 mt-11"
             >
               Wyślij aplikację
