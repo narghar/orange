@@ -6,7 +6,7 @@ import YoutubeIconWhite from '../../public/assets/contact/y-w.svg';
 const Footer = () => {
   return (
     <section className="bg-black mt-32 overflow-hidden">
-      <div className="relative max-w-base mx-auto text-white px-2 xl:px-0 flex flex-wrap justify-evenly lg:justify-start">
+      <div className="relative max-w-base mx-auto text-white px-2 base:px-0 flex flex-wrap justify-evenly lg:justify-start">
         <figure className="pt-36 mb-12 w-full text-center lg:text-left">
           <Image
             src="/assets/contact/logo.png"
@@ -101,7 +101,7 @@ const Footer = () => {
             Profesjonalnie i solidnie.
           </h2>
           <button
-            className="text-orange border border-solid rounded-[20px]
+            className="text-orange border border-solid font-semibold rounded-[20px]
             border-orange px-14 py-2 mt-14"
           >
             Skontaktuj się
