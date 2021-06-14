@@ -13,8 +13,14 @@ module.exports = {
       fontSize: {
         "15p": "15px",
       },
+      height: {
+        cardFix: "calc(100% - 7px)",
+      },
       margin: {
         13: "3.25rem"
+      },
+      opacity: {
+        45: ".45",
       },
       screens: {
         base: "1390px"
@@ -38,4 +44,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
