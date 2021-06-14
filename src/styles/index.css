@@ -68,6 +68,9 @@
 
 
 @layer utilities {
+    .bg-mask {
+        background: linear-gradient(to bottom, transparent,  #000 80%)
+    }
 
     input.checkbox {
         opacity: 0;
