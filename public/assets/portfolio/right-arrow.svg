@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 18" width="23" height="18">
+	<title>Content</title>
+	<defs>
+		<image  width="23" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAASBAMAAABCyVggAAAAAXNSR0IB2cksfwAAACRQTFRFAAAA////////////////////////////////////////////tAmN6QAAAAx0Uk5TAGYi/zNEmbtViMwRvWXtGQAAAEBJREFUeJxjYAADRgEGBFA2ROIwGiNLCZMi5RoKBclAqWJjOGhgmF4OBYutNsD1cC9ejTBgF0USDLuQJBi4wRIAVOUZHzvr70AAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Content">
+		<g id="Podobne">
+			<g id="Realizacja kopia 3">
+				<use id="-e-Layer 1" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
