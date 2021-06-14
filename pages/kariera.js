@@ -1,5 +1,6 @@
-import Image from "next/image";
+import Arrow from "../public/assets/career/arrow-r.svg";
 import Clients from "../src/components/Clients";
+
 const Career = () => {
   return (
     <div className="max-w-base mx-auto mt-32  px-2 base:px-0">
@@ -77,41 +78,17 @@ const Career = () => {
           </footer>
         </article>
         <div className="relative uppercase text-2xl mt-24 mb-32">
-          <h3 className="font-bold">
+          <h3 className="font-bold flex items-center">
             MID & SENIOR LEVEL VFX ANIMATOR
-            <span className="ml-5">
-              <Image
-                className="mr-10"
-                src="/assets/career/arrow-r.svg"
-                alt="MID & SENIOR LEVEL VFX ANIMATOR"
-                width={23}
-                height={18}
-              />
-            </span>
+              <Arrow className="ml-5"/>
           </h3>
-          <h3 className="font-bold my-7">
+          <h3 className="font-bold my-7 flex items-center">
             MID & SENIOR COMPOSITING ARTISTS
-            <span className="ml-5">
-              <Image
-                className="mr-10"
-                src="/assets/career/arrow-r.svg"
-                alt="MID & SENIOR COMPOSITING ARTISTS"
-                width={23}
-                height={18}
-              />
-            </span>
+             <Arrow className="ml-5"/>
           </h3>
-          <h3 className="font-bold">
+          <h3 className="font-bold flex items-center">
             SENIOR MODELING ARTIST
-            <span className="ml-5">
-              <Image
-                className="mr-10"
-                src="/assets/career/arrow-r.svg"
-                alt="SENIOR MODELING ARTIST"
-                width={23}
-                height={18}
-              />
-            </span>
+              <Arrow className="ml-5"/>
           </h3>
         </div>
       </section>
