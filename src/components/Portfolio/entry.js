@@ -95,7 +95,7 @@ const PortfolioEntry = () => {
             Ach, jak cudowna jest Panama
           </figcaption>
           <RightArrowIcon className="absolute right-8 bottom-11 z-50" />
-          <div className="absolute bg-mask opacity-95 top-0 w-full h-cardFix z-40"></div>
+          <div className="absolute bg-mask opacity-70 top-0 w-full h-cardFix z-40"></div>
         </figure>
         <figure className="relative">
           <Image
