@@ -61,6 +61,7 @@
 
  body {
       @apply font-body text-lg;
+      
     }
 
 }
@@ -69,7 +70,7 @@
 
 @layer utilities {
     .bg-mask {
-        background: linear-gradient(to bottom, transparent,  #000 80%)
+        background: linear-gradient(to bottom, transparent,  #000 85%)
     }
 
     input.checkbox {
