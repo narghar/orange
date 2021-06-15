@@ -21,8 +21,8 @@ const entries = [
 
 const Blog = () => {
   return (
-    <section className="max-w-base mx-auto px-2 base:px-0 flex ">
-      <h2>Dowiedz się więcej o naszej działalności</h2>
+    <section className="max-w-base mx-auto px-2 base:px-0 flex mt-32">
+      <h2 className="text-5xl">Dowiedz się więcej o naszej działalności</h2>
       <div>
         {entries.map((entry, i) => (
           <BlogEntry
@@ -33,7 +33,7 @@ const Blog = () => {
           />
         ))}
         <Link href="/">
-          <a>Przeglądaj blog</a>
+          <a className="inline-block text-3xl font-bold mt-3">Przeglądaj blog</a>
         </Link>
       </div>
     </section>
