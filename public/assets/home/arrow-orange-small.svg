@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" width="14" height="11">
+	<title>faq</title>
+	<defs>
+		<image  width="14" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALBAMAAAC9q6FRAAAAAXNSR0IB2cksfwAAACFQTFRFAAAA8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi8lgi3gyi1AAAAAt0Uk5TACK7qt1VZu7/d0Qy3sFkAAAANElEQVR4nGNgYGBgVGSAABMBCM3siBAISwOCFEcGFRcgcO+EiC+fAKa4KlG4jFAuwwIGBgBxgQmRdpShSQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="faq">
+		<use id="-e-arrow" href="#img1" x="0" y="0" />
+	</g>
+</svg>
