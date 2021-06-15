@@ -34,6 +34,7 @@ module.exports = {
         "orange-light": "#f25822",
         "gray-light": "#f7f7f7",
         "gray-dark": "#6b6b6b",
+        "gray-date": "#656565",
         "gray-darker": "#8c8c8c",
       },
     },
