@@ -17,7 +17,7 @@ const PortfolioEntry = () => {
           <span className="text-orange-light text-base uppercase tracking-widest mt-1">
             Film pełnometrażowy
           </span>
-          <h2 className="font-bold text-5xl uppercase leading-snug">
+          <h2 className="font-bold text-5xl uppercase leading-tight">
             Oh, wie schön ist Panama
           </h2>
           <p className="mt-2">
