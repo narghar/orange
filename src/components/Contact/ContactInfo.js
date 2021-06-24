@@ -19,7 +19,14 @@ const ContactInfo = () => {
           NIP: 9372372688
           <br />
           <span className="block mt-3">
-            Zobacz na <a className="text-orange font-semibold">Google Maps</a>
+            Zobacz na
+            <a
+              href="https://goo.gl/maps/apMXELKNYqrsJuXL9"
+              target="_blank"
+              className="text-orange font-semibold ml-1"
+            >
+              Google Maps
+            </a>
           </span>
         </p>
         <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3 mt-12">
@@ -31,15 +38,29 @@ const ContactInfo = () => {
           43-344 Bielsko-Biała, Poland
           <br />
           <span className="block mt-3">
-            Zobacz na <a className="text-orange font-semibold">Google Maps</a>
+            Zobacz na
+            <a
+              href="https://goo.gl/maps/LHBy2WG69fn4pVnbA"
+              target="_blank"
+              className="text-orange font-semibold ml-1"
+            >
+              Google Maps
+            </a>
           </span>
         </p>
         <h4 className="uppercase text-orange-light text-15p tracking-[3px] mt-12">
           Social Media
         </h4>
         <div className="mt-3 flex items-center mb-12 lg:mb-0">
-          <YoutubeIcon />
-          <FacebookIcon className="ml-8" />
+          <a
+            href="https://www.youtube.com/channel/UClf-uJs2joQapM9CVQt8N6Q"
+            target="_blank"
+          >
+            <YoutubeIcon />
+          </a>
+          <a href="https://www.facebook.com/Orangeanimation/" target="_blank">
+            <FacebookIcon className="ml-8" />
+          </a>
         </div>
       </div>
       <div className="w-[270px] sm:w-1/4">
@@ -55,7 +76,12 @@ const ContactInfo = () => {
           </div>
           <br />
           e-mail:
-          <span className="text-orange-light"> ms.rakowska@gmail.com</span>
+          <a
+            href="mailto:ms.rakowska@gmail.com"
+            className="text-orange-light ml-1"
+          >
+            ms.rakowska@gmail.com
+          </a>
         </div>
         <div className="leading-6 mb-12">
           <span className="font-semibold">Barbara Pewna - Co-Producer</span>
@@ -65,7 +91,9 @@ const ContactInfo = () => {
             <span className="ml-2">+48 693 557 829</span>
           </div>
           <br />
-          <span className="text-orange-light">basiapewna@gmail.com</span>
+          <a href="mailto:basiapewna@gmail.com" className="text-orange-light">
+            basiapewna@gmail.com
+          </a>
         </div>
         <div className="leading-6 mb-12">
           <span className="font-semibold">Paweł Pewny - Producent</span>
@@ -75,7 +103,12 @@ const ContactInfo = () => {
             <span className="ml-2">+48 720 800 979</span>
           </div>
           <br />
-          <span className="text-orange-light">pawel@orangeanimation.pl</span>
+          <a
+            href="mailto:pawel@orangeanimation.pl"
+            className="text-orange-light"
+          >
+            pawel@orangeanimation.pl
+          </a>
         </div>
         <div className="leading-6">
           <span className="font-semibold">Piotr Reisch - Producent</span>
@@ -85,7 +118,9 @@ const ContactInfo = () => {
             <span className="ml-2">+48 603 193 820</span>
           </div>
           <br />
-          <span className="text-orange-light">piotr@spinkafilm.pl</span>
+          <a href="mailto:piotr@spinkafilm.pl" className="text-orange-light">
+            piotr@spinkafilm.pl
+          </a>
         </div>
       </div>
       <form
@@ -147,13 +182,20 @@ const ContactInfo = () => {
         </div>
         <button
           type="submit"
-          className="text-orange border border-solid font-semibold rounded-[20px]
+          className="text-orange hover:bg-black border border-solid font-semibold rounded-[20px]
             border-orange px-14 py-2 mt-11"
         >
           Wyślij Wiadomość
         </button>
       </form>
-      <div className="bg-gray-light h-[521px] w-full mt-16"></div>
+      <div className="w-full mt-16">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10293.939998921573!2d19.062316!3d49.8333439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9905027725c4e31!2sOrange%20Studio%20Animacji%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1624535939177!5m2!1spl!2spl"
+          width="100%"
+          height="521"
+          loading="lazy"
+        ></iframe>
+      </div>
     </section>
   );
 };
