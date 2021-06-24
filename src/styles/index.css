@@ -61,7 +61,7 @@
 
  body {
       @apply font-body text-lg;
-      
+
     }
 
 }
@@ -69,6 +69,9 @@
 
 
 @layer utilities {
+    a,button {
+        transition: .3s ease-in;
+    }
     .bg-mask {
         background: linear-gradient(to bottom, transparent,  #000 85%)
     }
