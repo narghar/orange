@@ -19,9 +19,9 @@ const Faq = () => {
             purus. Proin ac molestie nisi. Curabitur scelerisque mauris placerat
             ligula scelerisque dignissim a a neque.
           </p>
-          <p className="mt-12 text-2xl text-orange font-bold flex items-center justify-between">
+          <p className="mt-12 text-2xl text-orange font-bold sm:flex items-center lg:justify-between">
             Czy tworzycie animacje metodą ...
-            <Arrow />
+            <Arrow className="inline ml-10 lg:ml-auto" />
           </p>
           <p className="font-light leading-6 mt-3">
             Sed bibendum quam eu nibh pellentesque, in semper lorem consequat.
@@ -48,8 +48,8 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div>
-          <h2 className="text-5xl font-bold leading-tight">
+        <div className="mt-12 lg:mt-0">
+          <h2 className="text-3xl sm:text-5xl font-bold leading-tight">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor
             felis, semper quis diam ut, rhoncus ullamcorper ligula.
           </h2>
@@ -60,8 +60,8 @@ const Faq = () => {
           </p>
         </div>
       </div>
-      <div className="relative flex flex-wrap justify-between items-end 2xl:justify-center mb-[-9px] pt-20  max-w-8xl  mx-auto">
-        <div className="">
+      <div className="relative flex  justify-between items-end 2xl:justify-center mb-[-9px] pt-20  max-w-8xl mx-auto ">
+        <div className="px-10 lg:px-10">
           <Image
             src="/assets/home/crocodile.png"
             alt=""
@@ -69,38 +69,44 @@ const Faq = () => {
             height={308}
           />
         </div>
-        <div className="base:absolute bottom-0 right-20 ">
+        <div className="px-10 lg:px-0 base:absolute bottom-0 base:right-20 ">
           <Image src="/assets/home/tiger.png" alt="" width={387} height={376} />
         </div>
       </div>
-      <div className="relative max-w-8xl mx-auto">
+      <div className="relative max-w-8xl h-[650px] lg:h-[800px] xl:h-[976px] mx-auto">
         <Image
           src="/assets/home/video.png"
           alt="video"
-          width={1920}
-          height={976}
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
         />
-        <div className="absolute top-16 right-10">
-          <Image
-            src="/assets/home/award.png"
-            alt="European Film Award"
-            width={218}
-            height={143}
-          />
-        </div>
-        <div className="absolute w-[443px] top-0 left-0">
-          <h2 className="text-5xl text-white">
-            Różne historie,
-            <br />
-            różne style
-          </h2>
-          <p className="text-white text-3xl">
-            Dostarczamy wysokiej jakości animacje na czas
-          </p>
-          <Link href="/kontakt">
-            <a className="text-orange text-3xl">Skontaktuj się</a>
-          </Link>
-          <ArrowSmall className="inline-block mb-[6px]" />
+
+        <div className="flex flex-col items-center">
+          <div className="relative md:absolute mt-12 md:mt-0 md:top-16 md:right-10">
+            <Image
+              src="/assets/home/award.png"
+              alt="European Film Award"
+              width={218}
+              height={143}
+            />
+          </div>
+          <div className="relative md:absolute w-72 sm:w-[443px] md:bottom-28 md:left-40 text-center md:text-left">
+            <h2 className="text-5xl text-white font-bold leading-tight">
+              Różne historie,
+              <br />
+              różne style
+            </h2>
+            <p className="text-white text-3xl font-medium mt-12">
+              Dostarczamy wysokiej jakości animacje na czas
+            </p>
+            <Link href="/kontakt">
+              <a className="inline-block text-orange text-3xl font-bold mt-12">
+                Skontaktuj się
+              </a>
+            </Link>
+            <ArrowSmall className="inline-block mb-[6px] ml-4" />
+          </div>
         </div>
       </div>
     </section>

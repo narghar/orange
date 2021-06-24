@@ -32,7 +32,7 @@ const Advantages = () => {
   return (
     <section className="bg-gray-light">
       <div className="max-w-base mx-auto pt-36 pb-48">
-        <h2 className="text-5xl font-bold">Mocne strony</h2>
+        <h2 className="text-3xl sm:text-5xl font-bold">Mocne strony</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-24 gap-x-20 gap-y-20">
           {items.map((item, i) => (
             <AdvantageItem key={i} heading={item.heading} text={item.text} />
