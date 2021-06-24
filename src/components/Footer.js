@@ -29,7 +29,13 @@ const Footer = () => {
             NIP: 9372372688
             <br />
             <span className="block mt-3">
-              Zobacz na <a className="text-orange font-semibold">Google Maps</a>
+              Zobacz na
+              <a
+                href="https://goo.gl/maps/apMXELKNYqrsJuXL9" target="_blank"
+                className="text-orange font-semibold ml-1"
+              >
+                Google Maps
+              </a>
             </span>
           </p>
           <h4 className="uppercase text-orange-light text-15p tracking-[3px] mb-3 mt-12">
@@ -41,7 +47,14 @@ const Footer = () => {
             43-344 Bielsko-Biała, Poland
             <br />
             <span className="block mt-3">
-              Zobacz na <a className="text-orange font-semibold">Google Maps</a>
+              Zobacz na
+              <a
+                href="https://goo.gl/maps/LHBy2WG69fn4pVnbA"
+                target="_blank"
+                className="text-orange font-semibold ml-1"
+              >
+                Google Maps
+              </a>
             </span>
           </p>
           <h4 className="uppercase text-orange-light text-15p tracking-[3px] mt-12">
@@ -49,8 +62,18 @@ const Footer = () => {
           </h4>
           <div className="mt-3 mb-12 lg:mb-0">
             <div className="mt-3 flex items-center">
-              <YoutubeIconWhite />
-              <FacebookIconWhite className="ml-8" />
+              <a
+                href="https://www.youtube.com/channel/UClf-uJs2joQapM9CVQt8N6Q"
+                target="_blank"
+              >
+                <YoutubeIconWhite />
+              </a>
+              <a
+                href="https://www.facebook.com/Orangeanimation/"
+                target="_blank"
+              >
+                <FacebookIconWhite className="ml-8" />
+              </a>
             </div>
           </div>
         </div>
@@ -66,8 +89,12 @@ const Footer = () => {
               <PhoneWhiteIcon />
               <span className="ml-2">+48 607 339 459</span>
             </div>
-            e-mail:
-            <span className="text-orange-light"> ms.rakowska@gmail.com</span>
+            <a
+              href="mailto:ms.rakowska@gmail.com"
+              className="text-orange-light"
+            >
+              ms.rakowska@gmail.com
+            </a>
           </div>
           <div className="leading-6 mb-12">
             <span className="font-semibold">Barbara Pewna - Co-Producer</span>
@@ -75,7 +102,9 @@ const Footer = () => {
               <PhoneWhiteIcon />
               <span className="ml-2">+48 693 557 829</span>
             </div>
-            <span className="text-orange-light">basiapewna@gmail.com</span>
+            <a href="mailto:basiapewna@gmail.com" className="text-orange-light">
+              basiapewna@gmail.com
+            </a>
           </div>
           <div className="leading-6 mb-12">
             <span className="font-semibold">Paweł Pewny - Producent</span>
@@ -83,7 +112,12 @@ const Footer = () => {
               <PhoneWhiteIcon />
               <span className="ml-2">+48 720 800 979</span>
             </div>
-            <span className="text-orange-light">pawel@orangeanimation.pl</span>
+            <a
+              href="mailto:pawel@orangeanimation.pl"
+              className="text-orange-light"
+            >
+              pawel@orangeanimation.pl
+            </a>
           </div>
           <div className="leading-6">
             <span className="font-semibold">Piotr Reisch - Producent</span>
@@ -91,7 +125,9 @@ const Footer = () => {
               <PhoneWhiteIcon />
               <span className="ml-2">+48 603 193 820</span>
             </div>
-            <span className="text-orange-light">piotr@spinkafilm.pl</span>
+            <a href="mailto:piotr@spinkafilm.pl" className="text-orange-light">
+              piotr@spinkafilm.pl
+            </a>
           </div>
         </div>
         <div className="w-2/3 lg:w-1/2 text-center lg:text-left pl-0 lg:pl-12 mt-24 lg:mt-0">
@@ -100,12 +136,14 @@ const Footer = () => {
             <br />
             Profesjonalnie i solidnie.
           </h2>
-          <button
-            className="text-orange border border-solid font-semibold rounded-[20px]
+          <Link href="/kontakt">
+            <a
+              className="inline-block text-orange hover:bg-white border border-solid font-semibold rounded-[20px]
             border-orange px-14 py-2 mt-14"
-          >
-            Skontaktuj się
-          </button>
+            >
+              Skontaktuj się
+            </a>
+          </Link>
         </div>
         <div className="w-2/3 lg:w-4/5 xl:w-full text-gray-darker mt-24 leading-tight">
           <p className="xl:max-w-[990px]">
@@ -120,36 +158,36 @@ const Footer = () => {
             Teksturowanie - Cieniowanie
           </p>
         </div>
-        <nav className="w-full mt-24 mb-24 lg:mb-32">
-          <ul className="text-gray-darker text-base uppercase tracking-wide font-medium flex flex-col sm:flex-row items-center sm:items-start  justify-around md:justify-center lg:justify-start">
+        <nav className="w-full my-14 sm:my-24 lg:mb-32">
+          <ul className="h-60 sm:h-auto text-gray-darker text-base uppercase tracking-wide font-medium flex flex-col sm:flex-row items-center sm:items-start  justify-around md:justify-center lg:justify-start">
             <li className="md:mr-13">
               <Link href="/">
-                <a className="text-orange">Home</a>
+                <a className="hover:text-orange">Home</a>
               </Link>
             </li>
             <li className="md:mr-13">
               <Link href="/oferta">
-                <a>Oferta</a>
+                <a className="hover:text-orange">Oferta</a>
               </Link>
             </li>
             <li className="md:mr-13">
               <Link href="/produkcje">
-                <a>Produkcje</a>
+                <a className="hover:text-orange">Produkcje</a>
               </Link>
             </li>
             <li className="md:mr-13">
               <Link href="/aktualne">
-                <a>Aktualne Projekty</a>
+                <a className="hover:text-orange">Aktualne Projekty</a>
               </Link>
             </li>
             <li className="md:mr-13">
               <Link href="/kariera">
-                <a>Kariera</a>
+                <a className="hover:text-orange">Kariera</a>
               </Link>
             </li>
             <li className="lg:mr-13">
               <Link href="/kontakt">
-                <a>Kontakt</a>
+                <a className="hover:text-orange">Kontakt</a>
               </Link>
             </li>
           </ul>

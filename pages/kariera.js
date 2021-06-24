@@ -11,9 +11,12 @@ const Career = () => {
             reżyserem lub animatorem i chciałbyś pracować z nami nad pięknymi
             produkcjami, napisz do nas!
           </h2>
-          <p className="text-2xl sm:text-4xl text-orange mt-8">
+          <a
+            href="mailto:cv@orangeanimation.com"
+            className="inline-block text-2xl sm:text-4xl text-orange mt-8"
+          >
             cv@orangeanimation.com
-          </p>
+          </a>
         </div>
         <p className="md:ml-8 self-center lg:place-self-start ">
           W przypadku, gdy nie otrzymasz od nas odpowiedzi - przyjmij nasze
@@ -67,28 +70,34 @@ const Career = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse vel nunc, lobortis massa. Proin fringilla velit a
               metus egest
-              <span className="text-orange"> cv@orangeanimation.com</span>
+              <a
+                href="mailto:cv@orangeanimation.com"
+                className="text-orange ml-1"
+              >
+                cv@orangeanimation.com
+              </a>
             </p>
-            <button
-              className="text-orange border border-solid font-semibold rounded-[20px]
+            <a
+              href="mailto:cv@orangeanimation.com"
+              className="inline-block text-orange hover:bg-black border border-solid font-semibold rounded-[20px]
             border-orange pl-12 pr-9 py-2 mt-11"
             >
               Wyślij aplikację
-            </button>
+            </a>
           </footer>
         </article>
         <div className="relative uppercase text-2xl mt-24 mb-32">
           <h3 className="font-bold flex items-center">
             MID & SENIOR LEVEL VFX ANIMATOR
-              <Arrow className="ml-5"/>
+            <Arrow className="ml-5" />
           </h3>
           <h3 className="font-bold my-7 flex items-center">
             MID & SENIOR COMPOSITING ARTISTS
-             <Arrow className="ml-5"/>
+            <Arrow className="ml-5" />
           </h3>
           <h3 className="font-bold flex items-center">
             SENIOR MODELING ARTIST
-              <Arrow className="ml-5"/>
+            <Arrow className="ml-5" />
           </h3>
         </div>
       </section>
