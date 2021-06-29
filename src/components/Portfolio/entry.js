@@ -5,7 +5,7 @@ const PortfolioEntry = () => {
   return (
     <div className="max-w-base mx-auto mt-24 mb-48 px-2 base:px-0">
       <section className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-start">
-        <figure>
+        <figure className="mt-6 lg:mt-0">
           <Image
             src="/assets/portfolio/01.png"
             alt=""
@@ -13,11 +13,11 @@ const PortfolioEntry = () => {
             height={486}
           />
         </figure>
-        <div className="w-[440px] ml-14 order-first lg:order-last">
+        <div className="w-[440px] lg:ml-14 text-center lg:text-left order-first lg:order-last">
           <span className="text-orange-light text-base uppercase tracking-widest mt-1">
             Film pełnometrażowy
           </span>
-          <h2 className="font-bold text-5xl uppercase leading-tight">
+          <h2 className="font-bold text-3xl sm:text-4xl xl:text-5xl uppercase leading-tight">
             Oh, wie schön ist Panama
           </h2>
           <p className="mt-2">
@@ -31,24 +31,24 @@ const PortfolioEntry = () => {
           </p>
         </div>
       </section>
-      <section className="flex flex-wrap justify-center  lg:justify-between mt-4">
-        <figure>
+      <section className="grid grid-cols-2 mt-4 gap-x-2">
+        <figure className="relative base:w-[684px] base:h-[380px] h-[25vw]">
           <Image
             src="/assets/portfolio/02.png"
             alt=""
-            width={684}
-            height={380}
+            layout="fill"
+            objectFit="cover"
           />
         </figure>
-        <figure>
+        <figure className="relative base:w-[677px] base:h-[380px]">
           <Image
             src="/assets/portfolio/03.png"
             alt=""
-            width={677}
-            height={380}
+            layout="fill"
+            objectFit="cover"
           />
         </figure>
-        <div className="mt-12 mx-auto">
+        <div className="mt-6 base:mt-12 mx-auto col-span-2">
           <figure className="relative">
             <Image
               src="/assets/portfolio/04.png"
@@ -62,7 +62,7 @@ const PortfolioEntry = () => {
         </div>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 mt-44 justify-items-center">
-        <h2 className="font-bold text-5xl justify-self-center lg:justify-self-start col-span-full mb-20">
+        <h2 className="font-bold text-5xl  text-center xl:justify-self-start  col-span-full mb-20">
           Zobacz inne produkcje
         </h2>
         <figure className="relative">
@@ -72,7 +72,7 @@ const PortfolioEntry = () => {
             width={449}
             height={581}
           />
-          <figcaption className="absolute -mt-24 left-8 z-50 text-3xl text-white font-medium uppercase w-3/4">
+          <figcaption className="absolute bottom-9 left-8 z-50 text-3xl text-white font-medium uppercase w-3/4">
             <span className="block text-base font-normal text-orange-light tracking-widest">
               Animacja
             </span>
@@ -88,7 +88,7 @@ const PortfolioEntry = () => {
             width={448}
             height={581}
           />
-          <figcaption className="absolute -mt-32 pb-96 left-16 z-50 text-3xl text-white font-medium uppercase w-3/4">
+          <figcaption className="absolute bottom-9 left-8 z-50 text-3xl text-white font-medium uppercase w-3/4">
             <span className="block text-base font-normal tracking-widest text-orange-light">
               Animacja
             </span>
@@ -104,7 +104,7 @@ const PortfolioEntry = () => {
             width={448}
             height={581}
           />
-          <figcaption className="absolute -mt-24 pb-96 left-16 z-50 text-3xl text-white font-medium uppercase w-3/4">
+          <figcaption className="absolute bottom-9 left-8 z-50 text-3xl text-white font-medium uppercase w-3/4">
             <span className="block text-base font-normal tracking-widest text-orange-light">
               Animacja
             </span>

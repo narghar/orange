@@ -5,7 +5,7 @@ const Career = () => {
   return (
     <div className="max-w-base mx-auto mt-32  px-2 base:px-0">
       <section className="grid grid-cols-1 md:grid-cols-2">
-        <div className="tracking-wide font-bold text-4xl">
+        <div className="tracking-wide font-bold text-2xl sm:text-4xl">
           <h2 className="md:mr-8">
             Jeśli jesteś utalentowanym artystą, ilustratorem, producentem,
             reżyserem lub animatorem i chciałbyś pracować z nami nad pięknymi
@@ -79,25 +79,25 @@ const Career = () => {
             </p>
             <a
               href="mailto:cv@orangeanimation.com"
-              className="inline-block text-orange hover:bg-black border border-solid font-semibold rounded-[20px]
+              className="inline-block text-orange hover:bg-black hover:text-white hover:border-black border border-solid font-semibold rounded-[20px]
             border-orange pl-12 pr-9 py-2 mt-11"
             >
               Wyślij aplikację
             </a>
           </footer>
         </article>
-        <div className="relative uppercase text-2xl mt-24 mb-32">
-          <h3 className="font-bold flex items-center">
+        <div className="relative uppercase text-xl sm:text-2xl mt-24 mb-32 px-4 sm:px-0">
+          <h3 className="font-bold flex items-center justify-between sm:justify-start gap-x-5">
             MID & SENIOR LEVEL VFX ANIMATOR
-            <Arrow className="ml-5" />
+            <Arrow className="flex-shrink-0" />
           </h3>
-          <h3 className="font-bold my-7 flex items-center">
+          <h3 className="font-bold my-7 flex items-center justify-between sm:justify-start gap-x-5">
             MID & SENIOR COMPOSITING ARTISTS
-            <Arrow className="ml-5" />
+            <Arrow className="flex-shrink-0" />
           </h3>
-          <h3 className="font-bold flex items-center">
+          <h3 className="font-bold flex items-center justify-between sm:justify-start gap-x-5">
             SENIOR MODELING ARTIST
-            <Arrow className="ml-5" />
+            <Arrow className="flex-shrink-0" />
           </h3>
         </div>
       </section>

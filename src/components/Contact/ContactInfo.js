@@ -74,7 +74,6 @@ const ContactInfo = () => {
             <PhoneIcon />
             <span className="ml-2">+48 607 339 459</span>
           </div>
-          <br />
           e-mail:
           <a
             href="mailto:ms.rakowska@gmail.com"
@@ -90,19 +89,19 @@ const ContactInfo = () => {
             <PhoneIcon />
             <span className="ml-2">+48 693 557 829</span>
           </div>
-          <br />
+
           <a href="mailto:basiapewna@gmail.com" className="text-orange-light">
             basiapewna@gmail.com
           </a>
         </div>
         <div className="leading-6 mb-12">
           <span className="font-semibold">Paweł Pewny - Producent</span>
-          <br />
+
           <div className="flex items-center">
             <PhoneIcon />
             <span className="ml-2">+48 720 800 979</span>
           </div>
-          <br />
+
           <a
             href="mailto:pawel@orangeanimation.pl"
             className="text-orange-light"
@@ -117,7 +116,6 @@ const ContactInfo = () => {
             <PhoneIcon />
             <span className="ml-2">+48 603 193 820</span>
           </div>
-          <br />
           <a href="mailto:piotr@spinkafilm.pl" className="text-orange-light">
             piotr@spinkafilm.pl
           </a>
@@ -182,7 +180,7 @@ const ContactInfo = () => {
         </div>
         <button
           type="submit"
-          className="text-orange hover:bg-black border border-solid font-semibold rounded-[20px]
+          className="text-orange hover:bg-black hover:text-white hover:border-black border border-solid font-semibold rounded-[20px]
             border-orange px-14 py-2 mt-11"
         >
           Wyślij Wiadomość

@@ -5,7 +5,7 @@ import ArrowSmall from "../../../public/assets/home/arrow-orange-small.svg";
 const Faq = () => {
   return (
     <section className="max-w-8xl mx-auto">
-      <div className="max-w-base mx-auto mt-44 px-2 base:px-0 grid grid-cols-1 lg:grid-cols-2 gap-x-28">
+      <div className="max-w-base mx-auto mt-44 px-4 base:px-0 grid grid-cols-1 lg:grid-cols-2 gap-x-28">
         <div>
           <p className="text-2xl font-light leading-9">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
@@ -19,41 +19,41 @@ const Faq = () => {
             purus. Proin ac molestie nisi. Curabitur scelerisque mauris placerat
             ligula scelerisque dignissim a a neque.
           </p>
-          <p className="mt-12 text-2xl text-orange font-bold sm:flex items-center lg:justify-between">
+          <p className="mt-12 text-2xl text-orange font-bold flex items-center justify-between sm:justify-start lg:justify-between">
             Czy tworzycie animacje metodą ...
-            <Arrow className="inline ml-10 lg:ml-auto" />
+            <Arrow className="flex-shrink-0 sm:ml-20 lg:ml-0" />
           </p>
           <p className="font-light leading-6 mt-3">
             Sed bibendum quam eu nibh pellentesque, in semper lorem consequat.
             Sed tincidunt vulputate elit quis scelerisque.
           </p>
           <div className="font-bold mt-12 leading-6">
-            <p className="mb-5">
+            <p className="mb-4 flex items-center justify-between ">
               Mauris interdum velit ac lectus sollicitudin, ac congue nunc
               hendrerit
-              <ArrowSmall className="inline ml-2" />
+              <ArrowSmall className="flex-shrink-0" />
             </p>
-            <p className="mb-4">
+            <p className="mb-4 flex items-center justify-between">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               nec metus eget dolor condimentum placerat
-              <ArrowSmall className="inline ml-2" />
+              <ArrowSmall className="flex-shrink-0" />
             </p>
-            <p className="mb-4">
+            <p className="mb-4 flex items-center justify-between">
               Proin ut elit ac lacus commodo imperdiet non eu nisi
-              <ArrowSmall className="inline ml-2" />
+              <ArrowSmall className="flex-shrink-0" />
             </p>
-            <p className="mb-4">
+            <p className="mb-4 flex items-center justify-between">
               Fusce tempor turpis a interdum consequat
-              <ArrowSmall className="inline ml-2" />
+              <ArrowSmall className="flex-shrink-0" />
             </p>
           </div>
         </div>
         <div className="mt-12 lg:mt-0">
-          <h2 className="text-3xl sm:text-5xl font-bold leading-tight">
+          <h2 className="text-3xl sm:leading-tight sm:text-5xl font-bold ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor
             felis, semper quis diam ut, rhoncus ullamcorper ligula.
           </h2>
-          <p className="mt-14 font-light leading-9">
+          <p className="mt-12 font-light leading-9">
             Sed bibendum quam eu nibh pellentesque, in semper lorem consequat.
             Sed tincidunt vulputate elit quis scelerisque. Sed a imperdiet
             purus. Proin ac molestie nisi. Curabitur scelerisque mauris
@@ -92,20 +92,22 @@ const Faq = () => {
             />
           </div>
           <div className="relative md:absolute w-72 sm:w-[443px] md:bottom-28 md:left-40 text-center md:text-left">
-            <h2 className="text-5xl text-white font-bold leading-tight">
+            <h2 className="mt-12 md:mt-0 text-4xl sm:text-5xl text-white font-bold leading-tight">
               Różne historie,
               <br />
               różne style
             </h2>
-            <p className="text-white text-3xl font-medium mt-12">
+            <p className="text-white text-2xl sm:text-3xl font-medium mt-12">
               Dostarczamy wysokiej jakości animacje na czas
             </p>
-            <Link href="/kontakt">
-              <a className="inline-block text-orange text-3xl font-bold mt-12">
-                Skontaktuj się
-              </a>
-            </Link>
-            <ArrowSmall className="inline-block mb-[6px] ml-4" />
+            <div className="mt-12 border-b-2 inline-block border-transparent hover:border-white">
+              <Link href="/kontakt">
+                <a className="inline-block text-orange hover:text-white hover:boder text-2xl sm:text-3xl font-bold">
+                  Skontaktuj się
+                  <ArrowSmall className="inline-block ml-4" />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import BlogEntry from "./BlogEntry";
+import ArrowBlack from "../../../public/assets/home/arrow-black.svg";
 
 const entries = [
   {
@@ -22,10 +23,10 @@ const entries = [
 const Blog = () => {
   return (
     <section className="max-w-base mx-auto px-2 base:px-0 flex mt-32 flex-wrap md:flex-nowrap">
-      <h2 className="text-5xl">
+      <h2 className="text-3xl sm:text-5xl text-center mx-auto md:text-left font-bold max-w-[340px]">
         Dowiedz się więcej o naszej działalności
       </h2>
-      <div className="md:ml-8 mt-10 md:mt-0">
+      <div className=" md:ml-52 mt-10 md:mt-0">
         {entries.map((entry, i) => (
           <BlogEntry
             key={i}
@@ -34,11 +35,14 @@ const Blog = () => {
             date={entry.date}
           />
         ))}
-        <Link href="/">
-          <a className="inline-block text-3xl font-bold mt-3">
-            Przeglądaj blog
-          </a>
-        </Link>
+        <div className="border-b-2 inline-block border-transparent mt-3 hover:border-orange">
+          <Link href="/">
+            <a className="text-2xl sm:text-3xl font-bold  hover:text-orange flex items-center">
+              Przeglądaj blog
+              <ArrowBlack className="ml-2 flex-shrink-0" />
+            </a>
+          </Link>
+        </div>
       </div>
     </section>
   );

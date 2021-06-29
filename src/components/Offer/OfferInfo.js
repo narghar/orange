@@ -2,14 +2,16 @@ import Image from "next/image";
 const OfferInfo = () => {
   return (
     <div>
-      <section className="max-w-base mx-auto pt-24 pb-44">
-        <h2 className="text-5xl font-bold mb-24">Filmy fabularne</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16 gap-y-32 ">
+      <section className="max-w-base mx-auto px-2 base:px-0 py-12 lg:pt-24 lg:pb-44">
+        <h2 className="text-3xl sm:text-5xl font-bold mb-12 lg:mb-24 text-center lg:text-left">
+          Filmy fabularne
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16  gap-y-16 lg:gap-y-32 ">
           <div>
-            <h3 className="text-3xl font-bold">
+            <h3 className="text-2xl sm:text-3xl font-bold">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h3>
-            <p className="text-2xl my-10 font-light leading-9">
+            <p className="text-xl sm:text-2xl my-10 font-light leading-9">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
               turpis eu ligula blandit semper. Praesent porttitor nisl orci, at
               dictum tortor hendrerit in. Duis scelerisque at ipsum in sagittis.
@@ -27,7 +29,7 @@ const OfferInfo = () => {
               massa venenatis in. Suspendisse euismod diam vel rutrum eleifend.
             </p>
           </div>
-          <figure>
+          <figure className="text-center">
             <Image
               src="/assets/offer/01.png"
               alt="film"
@@ -36,7 +38,7 @@ const OfferInfo = () => {
               height={678}
             />
           </figure>
-          <figure className="order-last lg:order-none">
+          <figure className="order-last lg:order-none text-center">
             <Image
               src="/assets/offer/01.png"
               alt="film"
@@ -46,10 +48,10 @@ const OfferInfo = () => {
             />
           </figure>
           <div>
-            <h3 className="text-3xl font-bold">
+            <h3 className="text-2xl sm:text-3xl font-bold">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h3>
-            <p className="text-2xl my-10 font-light leading-9">
+            <p className="text-xl sm:text-2xl my-10 font-light leading-9">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
               turpis eu ligula blandit semper. Praesent porttitor nisl orci, at
               dictum tortor hendrerit in. Duis scelerisque at ipsum in sagittis.
