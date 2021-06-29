@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 17" width="23" height="17">
+	<title>Blog</title>
+	<defs>
+		<image  width="23" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAARBAMAAADEXSqOAAAAAXNSR0IB2cksfwAAACRQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAplgCRwAAAAx0Uk5TAGYi/zNEmbtViMwRvWXtGQAAADxJREFUeJxjYAADRgEGBFA2ROIwGiNLCZMi5RoKBclAqWJjOGhgmF4OBYutNsD1cC9ejTBgF0USDLvAEgAUEBhk4WbMRQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Blog">
+		<use id="-e-arrow-black" href="#img1" x="0" y="0" />
+	</g>
+</svg>
